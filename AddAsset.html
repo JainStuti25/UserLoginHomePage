@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        form {
+            display: inline-block;
+        }
+
+        .button {
+            background-color: #1d04aa;
+            border: none;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            border-radius: 12px;
+            margin: auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Add Asset</h1>
+    <br>
+
+    <fieldset>
+
+        <div>
+            <form>
+                <table>
+                    <tr>
+                        <td align="right">Name of Asset : </td>
+                        <td><input type="text" size="20" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Category: </td>
+                        <td><select>
+                                <option value="">Laptop</option>
+                                <option value="">Book</option>
+                                <option value="">Mobile</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Description: </td>
+                        <td> <textarea rows="5" cols="50"> </textarea></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Upload pic of Asset : </td>
+                        <td><input type="file" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table>
+                <br><br><br>
+                <input type="button" class="button" value="Add Asset" />
+            </form>
+        </div>
+    </fieldset>
+</body>
+
+</html>
